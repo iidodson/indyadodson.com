@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+.nav {
+  list-style: none;
+  padding: 0;
+  background-color: black;
+  margin: 0;
+}
+
+.nav--nav-link {
+  text-decoration: none;
+  color: white;
+}
