@@ -6,4 +6,13 @@
     text-align: center;
   }
 
+  .header--header-item {
+    color: white;
+    position: absolute;;
+    margin:auto;
+    text-align: center;
+    font-weight: 100;
+    width: 100%
+  }
+
 }
