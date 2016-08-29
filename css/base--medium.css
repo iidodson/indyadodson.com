@@ -26,7 +26,7 @@
 
   .wrapper--image-imagedisplay {
     width: 400px;
-    height: 400px;
+    height: 480px;
     margin-right: 20px;
   }
 
@@ -34,6 +34,18 @@
     width: 580px;
     margin: auto;
     display: block;
+  }
+
+  .wrapper--image-imagedisplayrow3 {
+    height: 350px;
+    margin: auto;
+    display: block;
+  }
+
+  .wrapper--image-project2-section1 {
+width: 100%;
+   margin: auto;
+    display:block;;
   }
 
 }
