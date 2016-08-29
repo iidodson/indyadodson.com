@@ -19,4 +19,21 @@
     padding: 0 1em;
   }
 
+  .wrapper--image {
+    display: flex;
+    justify-content: center;
+  }
+
+  .wrapper--image-imagedisplay {
+    width: 400px;
+    height: 400px;
+    margin-right: 20px;
+  }
+
+  .wrapper--image-imagedisplayspecial {
+    width: 580px;
+    margin: auto;
+    display: block;
+  }
+
 }

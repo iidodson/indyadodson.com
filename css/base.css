@@ -137,8 +137,6 @@ body {
     background-color: black;
     color: white;
     border: none;
-
-
   }
 
 .section--title-contact {
@@ -148,4 +146,47 @@ body {
 
 .section--contact {
   margin-bottom: 3em;
+}
+
+.section--projects-projectpage {
+  margin-top: 0;
+  padding: 2em;
+}
+
+.section--title-projecthead {
+  font-size: 2em;
+  color: black;
+}
+
+.section--description {
+  font-size: 18px;
+  max-width: 900px;
+  font-weight: 300;
+  margin: auto;
+}
+
+.section--caption {
+  font-weight: 400;
+}
+
+.project--section {
+  max-width: 900px;
+  margin: auto;
+  padding: 2em;
+}
+
+.section--title-article {
+  font-weight: 300;
+}
+
+.project--paragraph {
+  font-weight: 300;
+  color: #999999;
+  font-size: 18px;
+}
+
+.wrapper--image {
+  display: block;
+  margin: auto;
+  position: relative;
 }
