@@ -63,6 +63,7 @@ body {
 }
 .section--title {
   font-weight: 300;
+  color: black;
 }
 
 .section--paragraph {
@@ -142,6 +143,7 @@ body {
 .section--title-contact {
   margin-bottom: 40px;
   font-weight: 300;
+  color: black;
 }
 
 .section--contact {
@@ -189,4 +191,24 @@ body {
   display: block;
   margin: auto;
   position: relative;
+}
+
+.wrapper--image-project2-section2 {
+  margin-bottom: 60px;
+}
+
+.wrapper--image-project2-section2 {
+  width: 40%;
+}
+
+.footer {
+  color: black;
+  text-align: center;
+  margin: auto;
+
+}
+
+.footer-text {
+  margin: 0;
+  padding: 12px;
 }
