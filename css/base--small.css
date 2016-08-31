@@ -1,0 +1,47 @@
+
+@media only screen and (max-width: 700px), only screen and (max-device-width: 700px) {
+
+  .nav--nav-item {
+    text-align: center;
+  }
+
+  .nav {
+    display: block;
+  }
+  .nav--nav-link-sub {
+      display: block;
+  }
+
+  .header--header-item {
+    color: white;
+    position: absolute;;
+    margin:auto;
+    text-align: center;
+    font-weight: 100;
+    width: 100%
+  }
+
+  .wrapper--projects {
+    display: block;
+  }
+
+  .wrapper--image {
+    display: block;
+  }
+
+  .wrapper--image-imagedisplay {
+    display: block;
+    margin: auto;
+    width: 300px;
+    height: 300px;
+    margin-bottom: 20px;
+  }
+  
+  .wrapper--image-imagedisplayspecial {
+    width: 280px;
+    margin: auto;
+    display: block;
+
+  }
+
+}

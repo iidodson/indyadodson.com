@@ -1,306 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <title>Indya Dodson</title>
-
-    <link rel="shortcut icon" type="image/png" href="img/id_logo.png"/>
-
-    <!-- Bootstrap Core CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
-
-    <!-- Custom Fonts -->
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
-
-    <!-- Plugin CSS -->
-    <link rel="stylesheet" href="css/animate.min.css" type="text/css">
-
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/creative.min.css" type="text/css">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
+  <title>Indya Dodson</title>
+  <link rel="shortcut icon" type="image/png" href="img/id_logo.png"/>
+  <link rel="stylesheet" href="css/normalize.css" type="text/css">
+  <link rel="stylesheet" href="css/base--medium.css" media="only screen and (min-width: 700px), only screen and (min-device-width: 700px)" type="text/css">
+  <link rel="stylesheet" href="css/base--small.css" media="only screen and (max-width: 700px), only screen and (max-device-width: 700px)" type="text/css">
+  <link rel="stylesheet" href="css/base.css" type="text/css">
+  <meta name="viewport" content="width=device-width" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400" rel="stylesheet">
 </head>
 
-<body id="page-top">
+<body>
+<nav>
+  <ul class="nav">
+    <li class="nav--nav-item"><a class="nav--nav-link" href="index.html">INDYA DODSON</a></li>
+    <div class="nav--nav-link-sub">
+      <li class="nav--nav-item"><a class="nav--nav-link " href="#aboutme">About Me</a></li>
+      <li class="nav--nav-item"><a class="nav--nav-link" href="#projects">Work</a></li>
+      <li class="nav--nav-item"><a class="nav--nav-link " href="IndyaDodson_Resume.pdf">Resume</a></li>
+    </div>
+  </ul>
+</nav>
+<div class="header">
+  <div class="header--header-item">
+    <h1 class="header--headline">UI/UX Designer</h1>
+    <hr class="header--break">
+    <h3 class="header-subhead">With a passion for making things beautiful</h3>
+  </div>
+</div>
 
-    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
-        <div class="container-fluid">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand page-scroll" href="index.html">Indya Dodson</a>
-            </div>
+<div class="section section--aboutme" id="aboutme">
+  <h2 class="section--title">Hello there</h2>
+  <p class="section--paragraph section--paragraph-intro">I'm a developer turned designer, waddling my way into the
+    UI/UX industry. <br> I like to create meaningful products that make the lives of others more enjoyable.</p>
+</div>
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a class="page-scroll" href="#about">Home</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#languages">About</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#portfolio">Portfolio</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
+<div class="section section--projects" id="projects">
+  <h2 class="section--title">My Projects</h2>
+  <div class="wrapper--projects">
+  <div class="section--porjects-item">
+    <a href="project1.html#">
+      <div class="section--porjects-photo">
+        <div class="section--porjects-photo1">
+          <h3 class="section--porjects-subhead">UserTesting</h3>
         </div>
-        <!-- /.container-fluid -->
-    </nav>
+      </div>
+    </a>
+  </div>
 
-    <header>
-        <div class="header-content">
-            <div class="header-content-inner">
-                <h1>What is life without code?</h1>
-                <hr>
-                <p> With one eye for design and the other for programming expertise, <br> I aim to make beautiful and efficient software products</p>
-                <a href="#about" class="btn btn-primary btn-xl page-scroll">Learn about me</a>
-            </div>
-        </div>
-    </header>
+  <div class="section--porjects-item">
+    <a href="project2.html#">
+    <div class="section--porjects-photo">
+      <div class="section--porjects-photo2">
+        <h3 class="section--porjects-subhead section--porjects-subhead-fixalign">Redesigning Spotify Ads</h3>
+      </div>
+    </div>
+  </a>
+  </div>
 
-    <section class="bg-primary" id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">I'm the one you've been looking for...</h2>
-                    <hr class="light">
-                    <p class="text-faded">  Hello there, I'm Indya! <br> I'm a college student and I love frontend software development. However, I’m not afraid to get my hands dirty in the backend. My passion for frontend development stems from my love for art. Programming is an art, not just a science, and I want to be the next Picasso! </p>
-                 
-                </div>
-            </div>
-        </div>
-    </section>
+  <div class="section--porjects-item">
+    <a href="project3.html#">
+    <div class="section--porjects-photo">
+      <div class="section--porjects-photo3">
+        <h3 class="section--porjects-subhead">Quick Gift</h3>
+      </div>
+    </div>
+  </a>
+  </div>
+  </div>
+</div>
 
-    <section id="languages">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">My Strongest Languages</h2>
-                    <hr class="primary">
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x wow bounceIn text-primary">Java</i>
-                        <h3>3 years experience</h3>
-                        <p class="text-muted">Classes, object concepts, GUI,, file handling, collections, exception handling, and JDBC</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x wow bounceIn text-primary" data-wow-delay=".2s">HTML</i>
-                        <h3>2 years experience</h3>
-                        <p class="text-muted">HTML5, CSS, Bootstrap, JavaScript, jQuery,<br> and AJAX.</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x wow bounceIn text-primary" data-wow-delay=".1s">SQL</i>
-                        <h3>1 year experience</h3>
-                        <p class="text-muted">Query statements, nested select statements and joins, key constraints, clauses, functions, and conditions.</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x wow bounceIn text-primary" data-wow-delay=".2s">Python</i>
-                        <h3>Less than a year</h3>
-                        <p class="text-muted">Functions, classes, list, tuples, dictionaries, modules, exceptions and wildcards</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+<div class="section section--contact" id="resume">
+  <h2 class="section--title-contact">Let's make things beautiful, together!</h2>
+  <a href="IndyaDodson_Resume.pdf" class="section--button">My Resume</a>
+</div>
 
-    <section class="no-padding" id="portfolio">
-        <div class="container-fluid">
-            <div class="row no-gutter">
-                <div class="col-lg-4 col-sm-6">
-                    <a href="project1.html" class="portfolio-box">
-                        <img src="img/portfolio/quick_gift.png" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Android App
-                                </div>
-                                <div class="project-name">
-                                    Quick Gift
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="project2.html" class="portfolio-box">
-                        <img src="img/portfolio/shout.png" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Android App
-                                </div>
-                                <div class="project-name">
-                                    Shout!
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="project3.html" class="portfolio-box">
-                        <img src="img/portfolio/auction_gui.png" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Java Project
-                                </div>
-                                <div class="project-name">
-                                    Ebay for Exotic Animals
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
+<div class="footer">
+  <p class="footer-text">Copyright Indya Dodson 2016</p>
+</div>
 
-                <!-- 
-                <div class="col-lg-4 col-sm-6">
-                    <a href="#" class="portfolio-box">
-                        <img src="img/portfolio/4.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
-                                <div class="project-name">
-                                    Project Name
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="#" class="portfolio-box">
-                        <img src="img/portfolio/5.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
-                                <div class="project-name">
-                                    Project Name
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="#" class="portfolio-box">
-                        <img src="img/portfolio/6.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
-                                <div class="project-name">
-                                    Project Name
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div> -->
-            </div>
-        </div>
-    </section>
-
-    <aside class="bg-dark">
-        <div class="container text-center">
-            <div class="call-to-action">
-                <h2>Interested in working with me?</h2>
-                <a href="mailto:iidodson@yahoo.com" class="btn btn-default btn-xl wow tada">Contact Me</a>
-            </div>
-        </div>
-    </aside>
-
-    <section id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                    <ul class="list-inline text-center">
-                        <li>
-                            <a href="https://www.facebook.com/profile.php?id=100009324312326">
-                                <span class="fa-stack fa-lg size">
-                                    <i class="fa fa-circle fa-stack-2x"></i>
-                                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-                                </span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://github.com/iidodson">
-                                <span class="fa-stack fa-lg size">
-                                    <i class="fa fa-circle fa-stack-2x"></i>
-                                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
-                                </span>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <p class = "footer" >Copyright © Indya Dodson 2015</p>
-    </section>
-
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="js/jquery.easing.min.js"></script>
-    <script src="js/jquery.fittext.js"></script>
-    <script src="js/wow.min.js"></script>
-
-    <!-- Custom Theme JavaScript -->
-    <script src="js/creative.js"></script>
-
-    <!-- Google Analytics -->
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-      ga('create', 'UA-70762578-1', 'auto');
-      ga('send', 'pageview');
-    </script>
 
 </body>
-
 </html>

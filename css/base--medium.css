@@ -1,0 +1,51 @@
+
+@media only screen and (min-width: 700px), only screen and (min-device-width: 700px) {
+
+  .nav {
+    display: flex;
+  }
+
+  .nav--nav-link-sub {
+    display: flex;
+    margin-left: auto;
+  }
+
+  .wrapper--projects {
+    display: flex;
+    justify-content: center;
+  }
+
+  .section--porjects-item {
+    padding: 0 1em;
+  }
+
+  .wrapper--image {
+    display: flex;
+    justify-content: center;
+  }
+
+  .wrapper--image-imagedisplay {
+    width: 400px;
+    height: 480px;
+    margin-right: 20px;
+  }
+
+  .wrapper--image-imagedisplayspecial {
+    width: 580px;
+    margin: auto;
+    display: block;
+  }
+
+  .wrapper--image-imagedisplayrow3 {
+    height: 350px;
+    margin: auto;
+    display: block;
+  }
+
+  .wrapper--image-project2-section1 {
+width: 100%;
+   margin: auto;
+    display:block;;
+  }
+
+}
