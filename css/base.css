@@ -3,6 +3,9 @@ body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
 }
+html {
+  box-sizing: border-box;
+}
 
 .nav {
   list-style: none;
@@ -100,21 +103,40 @@ body {
   }
 
   .section--porjects-photo3 {
-    background-image: url("../img/portfolio/quick_gift.jpg");
+    background-image: url("../img/flora/floraconcept.png");
     background-size: cover;
-    background-position: -60px;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+  }
+
+  .section--porjects-photo4 {
+    background-image: url("../img/pantone/icon.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+  }
+
+  .section--porjects-photo5 {
+    background-image: url("../img/vectorart/bluespirit.png");
+    background-size: cover;
+    background-position: -32px;
+    background-repeat: no-repeat;
     width: 200px;
     height: 200px;
     margin: auto;
   }
 
   .section--porjects-subhead {
-    background: #ffffff;
+    background: black;
     width: 100%;
     padding: 89px 0;
     visibility: hidden;
     opacity: 0;
-    color: black;
+    color: white;
     font-weight: 400;
     -webkit-transition: opacity 0.4s ease-in-out;
    -moz-transition: opacity 0.4s ease-in-out;
@@ -203,6 +225,10 @@ body {
   display: block;
   margin: auto;
   position: relative;
+}
+
+.wrapper--image-project2-section1 {
+  width: 100%;
 }
 
 .wrapper--image-project2-section2 {
